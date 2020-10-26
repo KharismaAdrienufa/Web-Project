@@ -1,0 +1,28 @@
+.bagianatas {
+    background: url(../img/bg-beach.jpg);
+    filter: orange 30%;
+    background-size: cover;
+    background-position: 50%;
+    width: 1920px;
+    height: 558px;
+   
+
+}
+
+h1 span{
+    display: block;
+    font-family: 'Lobster';
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    line-height: 90px;
+}
+
+h1 {
+    font-family: 'Quicksand';
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 65px;
+}
