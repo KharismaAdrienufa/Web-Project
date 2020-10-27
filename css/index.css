@@ -9,7 +9,6 @@ body {
 
 .bagianatas {
     background: url(../img/bg-beach\(filtered\).png);
-    filter: orange 30%;
     background-size: cover;
     background-position: 50%;
     width: 100%;
