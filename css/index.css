@@ -1,11 +1,28 @@
+body {
+    background-color: #d5e6e0;
+}
+
+
 .bagianatas {
-    background: url(../img/bg-beach.jpg);
+    background: url(../img/bg-beach\(filtered\).png);
     filter: orange 30%;
     background-size: cover;
     background-position: 50%;
     width: 1920px;
     height: 558px;
    
+
+}
+
+.navbar {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+li{
+    display: inline;
+    margin-left: 50px;
+    font-family: 'Roboto';
 
 }
 
@@ -16,6 +33,7 @@ h1 span{
     text-align: center;
     font-size: 72px;
     line-height: 90px;
+    margin-top: 130px;
 }
 
 h1 {
@@ -25,4 +43,19 @@ h1 {
     font-weight: 300;
     font-size: 52px;
     line-height: 65px;
+
+}
+
+button{
+    transform: translateX(830px);
+    width: 125.71px;
+    height: 34.98px; 
+    border-radius: 10px;
+}
+
+.sign {
+    background-color: transparent;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
