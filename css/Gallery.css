@@ -1,0 +1,79 @@
+body{
+    margin : 0;
+    position: relative;
+    top: 50px;
+    background: rgba(234, 192, 46, 0.2) url(../img/bg-beach\(filtered\).png);
+    background-size: 100%;
+   
+    
+}
+
+.menu{
+    text-align: center;
+    margin-bottom: 81px;
+}
+.menu li{
+    padding-left: 62px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.titlepage{ 
+    position: relative;
+    z-index: 1;
+    margin-left: 10.9%;
+    background: #EBF6FA;
+    width: 80.9%;
+    height: 140px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+.titlepage h1{
+    margin-left: 6.5%;
+    font-family: 'Rancho', cursive;
+    font-size: 48px;
+    padding-top: 38px;
+    
+}
+
+
+.Box{
+    position: relative;
+    text-align: left;
+    width: 80.9%;
+    height: 1214px;
+    background: #D5E6E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10.9%;
+    padding-top: 20px;
+    
+
+
+}
+
+.Box p{
+    margin-top: 25px;
+}
+
+.card {
+    width: 28.4%;
+    height: 489px;
+    background-color: #ebf6fa;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 3.8%;
+    margin-top: 63px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    float: left;
+}
+
+img{
+    width: 85%;
+    height: 356px;
+    margin-top: 29px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
