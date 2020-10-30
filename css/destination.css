@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    background: url(../img/bg-beach\(filtered\).png);
+    filter: orange 30%;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 558px;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+a {
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+a: hover {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input {
+    background-color: rgb(196, 196, 196, 1);
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.search {
+    background-color: #ebf6fa;
+    margin: 0 auto;
+}
+
+.box {
+    border: none;
+    width: 75%;
+    height: 75%;
+	margin-top: 20px;
+	padding: 30px;
+}
+
+.container {
+    background-color: #D5E6E0;
+    margin: 0 auto;
+    width: 1551;
+    height: 1178;
+}
+
+.card {
+    display: table;
+    margin: 10px;
+    width: 249px;
+    height: 96px;
+    background-color: #ebf6fa;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    float: left;
+    width: 89px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+p {
+    text-align: left;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+@media screen and (min-width: 992px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
