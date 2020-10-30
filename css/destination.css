@@ -91,6 +91,12 @@ button {
     margin-top: 20px;
 }
 
+.rate {
+    width: 80px;
+    height: 20px;
+    border: none;
+}
+
 img {
     float: left;
     width: 89px;
