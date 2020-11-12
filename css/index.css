@@ -25,12 +25,18 @@ body {
     font-size: 15px;
     
 }
-li{
+.navbar a{
     display: inline;
-    
+    color: rgba(0, 0, 0, 0.5);
     font-family: 'Roboto';
 
 }
+
+.navbar a:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 .nav{
     margin-left: 60px;
@@ -63,19 +69,27 @@ h1 {
 
 .srch{
     margin-left: 43%;
-    width: 7%;
-    height: 34.98px; 
+    width: 6%;
     border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .sign {
     background-color: transparent;
     width: 7%;
-    height: 34.98px; 
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
 }
+
 
 
 
