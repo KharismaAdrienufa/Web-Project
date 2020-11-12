@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    position: relative;
+    background: url(../img/bg-beach\(filtered\).png);
+    filter: orange 30%;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+a {
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.biruMuda {
+    background-color: #ebf6fa;
+    position: relative;
+    margin: 0 auto;
+    border: none;
+    width: 75%;
+    height: 75%;
+    margin-top: 20px;
+    padding: 30px;
+    z-index: 1;
+}
+
+.biruTua {
+    background-color: #D5E6E0;
+    position: relative;
+    margin: 0 auto;
+    border: none;
+    width: 75%;
+    height: 75%;
+    padding: 30px;
+    z-index: -1;
+}
+
+.abuAbu {
+    background: rgba(189, 189, 189, 1);
+    position: relative;
+    margin: 0 auto;
+    border: none;
+    width: 75%;
+    height: 75%;
+    padding: 30px;
+    z-index: -1;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.img-sponsor {
+    margin: 40px;
+    display: inline;
+}
+
+.sponsor {
+    width: 140px;
+    height: 140px;
+}
+
+.sponsor2 {
+    width: 180px;
+    height: 100px;
+}
+
+h1 {
+    text-align: left;
+    margin: 10px;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 5px;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+p {
+    text-align: left;
+    margin: 5px;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}

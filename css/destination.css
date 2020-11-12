@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    position: relative;
+    background: url(../img/bg-beach\(filtered\).png);
+    filter: orange 30%;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+
+a {
+	font-size: 12px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input {
+    background-color: rgb(196, 196, 196, 1);
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.search {
+    background-color: #ebf6fa;
+    position: relative;
+    margin: 0 auto;
+    border: none;
+    width: 75%;
+    height: 75%;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.container {
+    background-color: #D5E6E0;
+    position: relative;
+    margin: 0 auto;
+    width: 1551;
+    height: 1178;
+    border: none;
+    width: 75%;
+    height: 75%;
+    padding: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+aside {
+    margin-left: 80px;
+}
+
+select {
+    background-color: rgb(196, 196, 196, 1);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card {
+    display: table;
+    margin: 5px;
+    width: 350px;
+    background-color: #ebf6fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rate {
+    float: left;
+    margin: 0;
+    width: 80px;
+    height: 20px;
+    border: none;
+} 
+
+img {
+    margin: 5px;
+    width: 140px;
+    height: 110px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+    margin: 5px;
+    font-family: 'Rancho', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+p {
+    text-align: left;
+    margin: 5px;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
