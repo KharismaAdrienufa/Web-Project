@@ -1,0 +1,163 @@
+body{
+   
+    position: relative;
+    top: 50px;
+    padding: 0px;
+   
+   
+    
+}
+
+.bg img{
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0px;
+}
+
+.menu{
+    text-align: center;
+    margin-bottom: 81px;
+}
+.menu a{
+    padding-left: 62px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+a:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.titlepage{ 
+    position: relative;
+    z-index: 1;
+    margin-left: 10.9%;
+    background: #EBF6FA;
+    width: 83%;
+    height: 140px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+.titlepage h1{
+    margin-left: 6.5%;
+    font-family: 'Rancho', cursive;
+    font-size: 48px;
+    padding-top: 38px;
+    
+}
+
+
+.Box{
+    position: relative;
+    text-align: left;
+    width: 80.9%;
+    height: auto;
+    background: #D5E6E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10.9%;
+    padding: 20px;
+    
+
+
+}
+
+.Box p{
+    margin-top: 25px;
+}
+
+.fullname li{
+    display: inline;
+    color: gray;
+    font: "Poppins";
+    font-size: .9em;
+}
+
+.Formulir input[type=text],[type=email]{
+    width: 38%;
+    border: 1px solid grey;
+    border-radius: .5em;
+    box-sizing: border-box;
+    padding: .6em;
+    font-size: 1.2em;
+}
+
+.Formulir p{
+    font-family: "Poppins";
+    font-size: 1.2em;
+}
+
+.pp label{
+    font-family: "Poppins";
+    font-size: 1.2em;
+}
+
+.pp li{
+    margin-bottom: 10px;
+}
+
+.rules label{
+    font-family: "Poppins";
+    font-size: 1.2em;
+}
+
+.rules li{
+    margin-bottom: 10px;
+}
+
+.penutup{
+    font-family: "Poppins";
+    font-style: italic;
+    text-align: center;
+}
+
+.Birth input[type=date]{
+    width: 35%;
+    padding: .2em;
+    font-size: 1.2em;
+    font-family: "Poppins";
+    border-radius: .5em;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    margin-bottom: 100px;
+}
+
+.Formulir input[type=button]{
+    width: 20%;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-left: 40%;
+    background-color: #21dc66;
+    border: 1px solid grey;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  
