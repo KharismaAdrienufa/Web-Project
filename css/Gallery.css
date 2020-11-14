@@ -100,3 +100,35 @@ img{
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 450px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+    header,
+    body {
+		width: 100%;
+		padding: 0;
+	}
+}
