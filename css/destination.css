@@ -79,8 +79,6 @@ button {
     background-color: #D5E6E0;
     position: relative;
     margin: 0 auto;
-    width: 1551;
-    height: 1178;
     border: none;
     width: 75%;
     height: 75%;
@@ -94,11 +92,14 @@ aside {
 }
 
 select {
-    background-color: rgb(196, 196, 196, 1);
-    width: 200px;
+    background-color: #c4c4c4 ;
+    width: 210px;
     height: 30px;
+    border: none;
     border-radius: 20px;
     margin: 10px;
+    padding-left: 10px;
+    padding-right: ;
 }
 
 .card {
