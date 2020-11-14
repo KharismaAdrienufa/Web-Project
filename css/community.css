@@ -77,12 +77,13 @@ ul {
 }
 
 .profile {
-    width: 200px;
-    height: 200px;
+    width: 386px;
+    height: 417px;
 }
 
 table {
     margin: 0 auto;
+    padding: 20px;
 }
 
 .img-sponsor {
@@ -105,8 +106,8 @@ h1 {
     margin: 10px;
     font-family: 'Rasa', serif;
     font-style: normal;
-    font-size: 35px;
-    line-height: 20px;
+    font-size: 64px;
+    line-height: 35px;
 }
 
 h2 {
@@ -115,8 +116,8 @@ h2 {
     font-family: 'Rasa', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 40px;
+    line-height: 35px;
 }
 
 p {
@@ -125,8 +126,8 @@ p {
     font-family: 'Rasa', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 32px;
+    line-height: 35px;
 }
 
 @media screen and (min-width: 992px) {

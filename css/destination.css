@@ -87,10 +87,6 @@ button {
     z-index: -1;
 }
 
-aside {
-    margin-left: 80px;
-}
-
 select {
     background-color: #c4c4c4 ;
     width: 210px;
@@ -99,7 +95,6 @@ select {
     border-radius: 20px;
     margin: 10px;
     padding-left: 10px;
-    padding-right: ;
 }
 
 .card {
