@@ -17,6 +17,9 @@ body {
   
 }
 
+a:hover {
+	font-weight: bold;
+}
 
 .navbar {
     margin-left: 649px;
