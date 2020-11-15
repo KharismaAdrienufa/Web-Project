@@ -15,24 +15,22 @@ body {
     height: 100%;
 }
 
-nav {
-    margin-top: 10px;
-    margin-bottom: 30px;
+.menu{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    margin-bottom: 81px;
 }
 
-li {
+.menu a{
+    padding-left: 62px;
     display: inline;
     font-family: 'Roboto', sans-serif;
-    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
-a {
-	font-size: 12px;
-	font-weight: 400;
-	text-decoration: none;
-	color: black;
+a:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:hover {
