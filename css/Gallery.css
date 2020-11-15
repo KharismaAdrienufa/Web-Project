@@ -1,11 +1,7 @@
-body{
-   
+body{   
     position: relative;
     top: 50px;
-    padding: 0px;
-   
-   
-    
+    padding: 0px; 
 }
 
 .bg img{
@@ -24,13 +20,13 @@ body{
     text-align: center;
     margin-bottom: 81px;
 }
+
 .menu a{
     padding-left: 62px;
     display: inline;
     font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, 0.5);
 }
-
 
 a:link {
     color:black;
@@ -50,8 +46,6 @@ a:hover {
     width: 80.9%;
     height: 140px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-    
 }
 
 .titlepage h1{
@@ -59,9 +53,7 @@ a:hover {
     font-family: 'Rancho', cursive;
     font-size: 48px;
     padding-top: 38px;
-    
 }
-
 
 .Box{
     position: relative;
@@ -72,9 +64,6 @@ a:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 10.9%;
     padding-top: 20px;
-    
-
-
 }
 
 .Box p{
