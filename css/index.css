@@ -181,13 +181,40 @@ h1 {
     color: white;
 }
 
-img {
+.pantai{
     width: 85%;
     height: 237px;
     margin-top: 29px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
+
+
+.bawahsendiri{
+    background-color: #2B8E9C;
+    padding-top: 1px;
+    margin-top: 90px;
+}
+
+.bawahsendiri p{
+    color: white; 
+    font-family: Rasa;
+    font-size: 24px;
+    margin-left: 35px;
+    
+}
+
+.bawahsendiri img{
+    margin-left: 35px;
+    margin-bottom: 41px;
+}
+
+.contact{
+    position: absolute;
+    left: 1401px;
+    top: 2140px;
+}
+
 
 @media screen and (min-width: 450px) {
     header,
