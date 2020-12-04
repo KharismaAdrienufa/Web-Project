@@ -83,7 +83,7 @@ button {
     height: 75%;
     padding: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    
+    margin-bottom: 50px;
 }
 
 select {
@@ -99,8 +99,10 @@ select {
 
 .card {
     display: table;
-    margin: 5px;
-    width: 350px;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
     background-color: #ebf6fa;
     border-radius: 10px;
     text-align: center;
@@ -108,8 +110,16 @@ select {
     border-radius: 16px;
 }
 
-.rate {
+.kiri {
     float: left;
+}
+
+.kanan {
+    float: right;
+}
+
+.rate {
+    float: none;
     margin: 0;
     width: 80px;
     height: 20px;
@@ -117,6 +127,7 @@ select {
 } 
 
 img {
+    float: left;
     margin: 5px;
     width: 140px;
     height: 110px;
@@ -135,7 +146,7 @@ img {
 }
 
 h1 {
-    text-align: left;
+    text-align: justify;
     margin: 5px;
     font-family: 'Rancho', cursive;
     font-style: normal;
