@@ -5,7 +5,7 @@ body {
 }
 
 .bagianatas {
-    background: url(/img/bg-beachblue.jpg);
+    background: url(../img/bg-beachblue.jpg);
     background-size: cover;
     background-position: 50%;
     width: 100%;
