@@ -6,8 +6,7 @@
 body {
     margin: 0;
     position: relative;
-    background: url(../img/bg-beach\(filtered\).png);
-    filter: orange 30%;
+    background: url(../img/bg-beachblue.jpg);
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -61,7 +60,7 @@ button {
 }
 
 .search {
-    background-color: #ebf6fa;
+    background-color: #A2CDEC;
     position: relative;
     margin: 0 auto;
     border: none;
@@ -103,7 +102,7 @@ select {
     padding: 10px;
     margin: 10px;
     width: 300px;
-    background-color: #ebf6fa;
+    background-color: #A2CDEC;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

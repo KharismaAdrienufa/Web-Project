@@ -6,8 +6,7 @@
 body {
     margin: 0;
     position: relative;
-    background: url(../img/bg-beach\(filtered\).png);
-    filter: orange 30%;
+    background: url(../img/bg-beachblue.jpg);
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -63,7 +62,7 @@ button {
 
 
 .search {
-    background-color: #ebf6fa;
+    background-color: #A2CDEC;
     position: relative;
     margin: 0 auto;
     border: none;
@@ -86,22 +85,39 @@ button {
     height: 75%;
     padding: 30px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    
+    margin-bottom: 100px;
+}
+
+.kiri {
+    width: 35%;
+    float: left;
+}
+
+.kanan {
+    width: 50%;
+    float: right;
 }
 
 .card {
     display: table;
     margin: 5px;
     width: 350px;
-    background-color: #ebf6fa;
+    background-color: #A2CDEC;
     border-radius: 10px;
 }
 
-.detail {
+.review #baris1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.review #baris2 {
+    display: inline-block;
+    margin: 30px 10px 50px 0;
 }
 
 .rate {
-    margin: 0;
+    margin-top: 20px;
     width: 90px;
     height: 20px;
     border: none;
@@ -125,6 +141,8 @@ img {
     width: 300px;
     height: 150px;
     border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .profile {
@@ -135,6 +153,7 @@ img {
 .explore {
     width: 240px;
     height: 120px;
+    display: inline-block;
 }
 
 h1 {
@@ -174,6 +193,33 @@ p {
     font-size: 19px;
     line-height: 20px;
 }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
 
 @media screen and (min-width: 450px) {
     header,
