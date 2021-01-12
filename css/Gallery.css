@@ -54,6 +54,7 @@ a:hover {
     z-index: 1;
     margin-left: 10.9%;
     background: #A2CDEC;
+    color: #black;
     width: 80.9%;
     height: 140px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -71,11 +72,12 @@ a:hover {
     position: relative;
     text-align: left;
     width: 80.9%;
-    height: 1214px;
+    height: auto;
     background: #D5E6E0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left: 10.9%;
-    padding-top: 20px;
+    padding: 50px 0px;
+    margin-bottom: 40px;
 }
 
 .Box p{
@@ -83,20 +85,17 @@ a:hover {
 }
 
 .card  {
-    width: 28.4%;
-    height: 489px;
-    border-radius: 10px;
-    text-align: left;
-    margin-left: 3.8%;
+    margin-left: 4%;
     margin-top: 63px;
+    width: auto;
+    height: auto;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    float: left;
+    
 }
 
 .card p{
     background-color: #c4c4c4;
-    width: 84px;
-    height: 21px;
+    
     color: #8e7e7e;
     padding-left: 10px;
     font-size: 18px;
@@ -104,7 +103,17 @@ a:hover {
 
 }
 
-img{
+.quote > div {
+    margin: 10px;
+    background-color: #c4c4c4;
+    padding: 0px 10px;
+    color: #8e7e7e;
+   
+    font-size: 18px;
+    font-family: 'Rancho', cursive;
+}
+
+.card img{
     
     margin-top: 29px;
   
@@ -119,23 +128,120 @@ img{
     
 }
 
-.bawahsendiri p{
-    color: white; 
-    font-family: Rasa;
-    font-size: 24px;
-    margin-left: 35px;
+
+
+
+
+
+.slideshow{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-bottom: 70px;
+
+}
+
+.slider{
+    overflow: hidden;
+    width: 773px;
+    height: 439px;
+    
     
 }
 
-.bawahsendiri img{
-    margin-left: 35px;
-    margin-bottom: 41px;
+.slides{
+    display: flex;
+    width: 500%;
+    height: 00px;
 }
 
-.contact{
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+    
+}
+
+.slide img{
+    width: 773px;
+    height: 439px;
+}
+
+
+.nav-manual{
     position: absolute;
-    left: 1300px;
-    top: 1490px;
-    z-index: 2;
+    width: 800px;
+    margin-top: 410px;
+    display: flex;
+    justify-content: center;
 }
 
+.btn-manual{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.btn-manual:not(:last-child){
+    margin-right: 40px;
+}
+
+.btn-manual:hover{
+    background:black;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+.navauto{
+    position: absolute ;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+.navauto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 410px;
+    transition: 1s;
+}
+
+.navauto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navauto .nav-btn1{
+    background: black;
+    
+}
+
+#radio2:checked ~ .navauto .nav-btn2{
+    background: black;
+    
+}
+
+#radio3:checked ~ .navauto .nav-btn3{
+    background: black;
+    
+}

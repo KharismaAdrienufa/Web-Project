@@ -30,35 +30,123 @@
     <div class= "titlepage">
         <h1>GALLERY</h1>
     </div>
-    <div class="Box">
-        <div style="width: 340px; height: 459px;" class="card">
-            <img style="width: 340px; height: 426px;" src="img/Group 12.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
-            <p style=" position: absolute;left: 110px; top: 460px;">Wave</p>
+    <div  class="Box">
+        <div class="slideshow">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="rd-btn" id="radio1">
+                    <input type="radio" name="rd-btn" id="radio2">
+                    <input type="radio" name="rd-btn" id="radio3">
+    
+                    <div class="first slide">
+                        <img src="img/Gambar slide.png" alt="" >
+                        
+                    </div>
+                    <div class="slide">
+                        <img src="img/Gambar slide 2.png" alt="" >
+                    </div>
+                    <div class="slide">
+                        <img src="img/Gambar slide 3.png" alt="" >
+                    </div>
+                    <!---NAV Auto-->
+                    <div class="navauto">
+                        <div class="nav-btn1"></div>
+                        <div class="nav-btn2"></div>
+                        <div class="nav-btn3"></div>
+                    </div>
+    
+                    <!---NAV Manual-->
+                    <div class="nav-manual">
+                        <label for="radio1" class="btn-manual"></label>
+                        <label for="radio2" class="btn-manual"></label>
+                        <label for="radio3" class="btn-manual"></label>
+                    </div>
+            </div>
+            </div>
         </div>
-        <div style="margin-left: 74px; width: 471px; height: 350px;" class="card">
-            <img style="width: 471px; height:267px" src="img/beach2.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline;" class="img container">
+            <div  class="card">
+                <img style="width: 100%; height: auto;"   src="img/Group 12.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div   class="card">
+                <img style="width: 100%; height: auto;"    src="img/Stairs.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"    src="img/Gambar 3.png" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"    src="img/Gambar 3.png" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"   src="img/Group 12.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"    src="img/Stairs.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"    src="img/Gambar 3.png" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div   class="card">
+                <img style="width: 100%; height: auto;"    src="img/Stairs.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            <div  class="card">
+                <img style="width: 100%; height: auto;"   src="img/Group 12.jpg" alt="">
+                <div style=" display: flex; " class="quote">
+                    <div >Pantai Dlodo </div>
+                    <div >Wave </div>
+                </div>
+            </div>
+            
+
         </div>
-        <div style="margin-left: 50px;" class="card">
-            <img style="width: 485px; height:239px" src="img/Stairs.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
-        </div>
-        <div class="card">
-            <img style="width: 471px; height:267px" src="img/beach2.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
-        </div>
-        <div style="margin-top: 0px; margin-left: 90px;" class="card">
-            <img style="width: 340px; height: 460px;" src="img/Group 12.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
-            <p style="position: absolute;left: 110.4px;top: 493px;">Wave</p>
-        </div>
-        <div style="margin-left: 0px;" class="card">
-            <img style="width: 485px; height:239px" src="img/Stairs.jpg" alt="">
-            <p style="font-family: 'Rancho', cursive; ">Pantai Dlodo</p>
-        </div>
+       
+        
     </div>
 
-   
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 3){
+            counter = 1
+        }
+    }, 5000);
+    </script>
+
+
+
 </body>
 </html
