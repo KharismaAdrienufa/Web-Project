@@ -54,7 +54,7 @@ ul {
 }
 
 .biruMuda {
-    background-color: #D5E6E0;
+    background-color: #FBFBFB;
     position: relative;
     margin: 0 auto;
     border: none;
@@ -89,7 +89,9 @@ ul {
 .biruMuda p {
     display: inline-block;
     text-align: center;
-    margin: 20px 30px 10px 0;
+    margin: 1%;
+    margin-top: 50px;
+    margin-left:8%;
 }
 
 .abuAbu img {
