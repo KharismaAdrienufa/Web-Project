@@ -109,13 +109,6 @@ select {
     border-radius: 16px;
 }
 
-.kiri {
-    float: left;
-}
-
-.kanan {
-    float: right;
-}
 
 .rate {
     float: none;
@@ -190,6 +183,17 @@ p {
  .cf {
      *zoom: 1;
  }
+
+
+
+.box{
+    display: flex;
+    margin-left: 30%;
+    flex-wrap: wrap;
+    
+}
+
+
 
 @media screen and (min-width: 450px) {
     header,
