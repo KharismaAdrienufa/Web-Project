@@ -67,7 +67,7 @@ a:hover {
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+
     
   }
  
@@ -129,6 +129,8 @@ a:hover {
     height: 15px;
     width: 15px;
     margin: 0 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -207,6 +209,7 @@ h1 {
   width: 100%;
   background-color: #2B8E9C;
   padding: 10px 0px;
+  margin-top: -1px;
   text-align: center;
   align-items: center;
   display: flexbox;
